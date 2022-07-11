@@ -4,10 +4,13 @@
 }
 
 .github{
-    width: 95%;
+    width: 40%;
     height: 95%;
-    background-color: #006666;
-    border: 3px solid #ffaa00;
+    background-color: white;
+    border-radius: 5px;
+    border-bottom: 5%;
+    /*border: 3px solid #ffaa00;*/
+    margin-left: 1%;
 }
 
 .titulo{
@@ -25,11 +28,11 @@
 }
 
 .margenSuperiorIzquierdo{
-    margin-top: 5px;
-    margin-left: 5px;
+    /* margin-top: 2%;
+    margin-left: 2%; */
     float:left;
-    width: 100px;
-    height: 100px;
+    width: 10%;
+    height: 25%;
 }
 
 header{
@@ -46,7 +49,13 @@ footer{
     width: 100%; /* usado para fijar el footer al bottom*/
 }
 
+.contenedorIndice{
+    height: 30%;
+    vertical-align: middle;
+}
+
 .indice{
+    height: 100%;
     line-height: 25px;
     padding: 0px 8px;
     padding-left: 8vw;
@@ -61,7 +70,7 @@ nav a{
     text-decoration: none;
     display: inline-block;
     padding: 0% 2%;
-    width: 26%;
+    width: 20%;
     text-align: center;
     justify-content: center;
 }
