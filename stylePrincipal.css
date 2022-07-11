@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.github{
+    width: 95%;
+    height: 95%;
+    background-color: #006666;
+    border: 3px solid #ffaa00;
+}
+
+.titulo{
+    text-align: center;
+    background-color: #006666;
+    color:#f6ff00;
+    /* height: 70px; */
+    height: 100%;
+    /*width: 680px;*/
+    width: 100%;
+    margin: auto;
+    font-size: 50px;
+    border: 5px solid #ffa200;
+    /*padding-top: 20px;*/
+}
+
+.margenSuperiorIzquierdo{
+    margin-top: 5px;
+    margin-left: 5px;
+    float:left;
+    width: 100px;
+    height: 100px;
+}
+
+header{
+    height: 100px;
+    background-color: darkgrey;
+}
+
+footer{
+    height: 30px;
+    color: #ffaa00;
+    background-color: #000000;
+    position: absolute; /* usado para fijar el footer al bottom */
+    bottom: 0; /* usado para fijar el footer al bottom*/
+    width: 100%; /* usado para fijar el footer al bottom*/
+}
+
+.indice{
+    line-height: 25px;
+    padding: 0px 8px;
+    padding-left: 8vw;
+    font-weight: auto;
+    background-color: orangered;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0% 2%;
+    width: 26%;
+    text-align: center;
+    justify-content: center;
+}
+
+nav a:hover{
+    background-color: silver;
+}
+
+.ajusteVentana{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    max-width: 100%; /* del viewport */
+	height: auto;
+	min-width: 20%; /* del viewport */   
+    /*width: 100%; */
+    /*height: 100%; */
+    border: 3px solid grey;
+}
+
+.flotarIzquierda{
+    float: Left;
+}
+
+.flotarDerecha{
+    float: Right;
+}
+
+
+.alineacionVerticalAbajo{
+    vertical-align: bottom;
+}
+
+ul{
+    /* defino el estilo de los BULLETS / PUNTOS que numeran items de lista como NADA, haciendo que no se vean */
+    list-style-type: none;
+}
+
+h1{
+    height: 100%;
+    background-color: red;
+}
+
+.logo{
+    height: 99%;
+    border-radius: 8px;
+    border: none;
+}
+
+.container {  display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 50%;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "categoriaGaming"
+      "categoriaMusica"
+      "categoriaEstrenos";
+  }
+  
+  .categoriaGaming {  display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 2% 1%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "noticiaGaming1 noticiaGaming2"
+      "noticiaGaming3 noticiaGaming4";
+    grid-area: categoriaGaming;
+  }
+  
+  .noticiaGaming1 { grid-area: noticiaGaming1; }
+  
+  .noticiaGaming2 { grid-area: noticiaGaming2; }
+  
+  .noticiaGaming3 { grid-area: noticiaGaming3; }
+  
+  .noticiaGaming4 { grid-area: noticiaGaming4; }
+  
+  .categoriaMusica {  display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    gap: 0% 1%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "noticiaMusica1 noticiaMusica2 noticiaMusica3";
+    grid-area: categoriaMusica;
+  }
+  
+  .noticiaMusica1 { grid-area: noticiaMusica1; }
+  
+  .noticiaMusica2 { grid-area: noticiaMusica2; }
+  
+  .noticiaMusica3 { grid-area: noticiaMusica3; }
+  
+  .categoriaEstrenos {  display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    gap: 0% 1%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "noticiaEstreno1 noticiaEstreno2 noticiaEstreno3 noticiaEstreno4";
+    grid-area: categoriaEstrenos;
+  }
+  
+  .noticiaEstreno1 { grid-area: noticiaEstreno1; }
+  
+  .noticiaEstreno2 { grid-area: noticiaEstreno2; }
+  
+  .noticiaEstreno3 { grid-area: noticiaEstreno3; }
+  
+  .noticiaEstreno4 { grid-area: noticiaEstreno4; }
+  
