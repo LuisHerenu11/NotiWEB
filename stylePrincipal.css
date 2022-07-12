@@ -45,7 +45,7 @@ header{
 }
 
 footer{
-    height: 30px;
+    height: 10vw;
     color: #ffaa00;
     background-color: #000000;
     position: absolute; /* usado para fijar el footer al bottom */
@@ -197,4 +197,22 @@ h1{
   .noticiaEstreno3 { grid-area: noticiaEstreno3; }
   
   .noticiaEstreno4 { grid-area: noticiaEstreno4; }
+
+  .footer-menu {  display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50%;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "footer-column footer-column2 footer-column3 footer-column4";
+  }
+  
+  .footer-column { grid-area: footer-column; }
+  
+  .footer-column2 { grid-area: footer-column2; }
+  
+  .footer-column3 { grid-area: footer-column3; }
+  
+  .footer-column4 { grid-area: footer-column4; }
+  
   
