@@ -4,13 +4,22 @@
 }
 
 .github{
-    width: 40%;
-    height: 95%;
+    width: 70%;
+    height: 140%;
     background-color: white;
     border-radius: 5px;
     border-bottom: 5%;
-    /*border: 3px solid #ffaa00;*/
-    margin-left: 1%;
+    border: 3px solid #ffaa00;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.subcribete{
+    height: 85%;
+    align-items: center;
+    float: right;
+    text-align: center;
+    text-size-adjust: 1;
 }
 
 .titulo{
@@ -18,7 +27,7 @@
     background-color: #006666;
     color:#f6ff00;
     /* height: 70px; */
-    height: 50%;
+    height: 70%;
     /*width: 680px;*/
     width: 100%;
     margin: auto;
@@ -54,8 +63,12 @@ footer{
     text-align: center;
 }
 
+#parrafoFooter{
+    background-color: black;
+}
+
 .contenedorIndice{
-    height: 30%;
+    height: 40%;
     vertical-align: middle;
 }
 
@@ -76,6 +89,7 @@ nav a{
     display: inline-block;
     padding: 0% 2%;
     width: 20%;
+    height: 100%;
     text-align: center;
     justify-content: center;
 }
@@ -205,6 +219,7 @@ h1{
     grid-auto-flow: row;
     grid-template-areas:
       "footer-column footer-column2 footer-column3 footer-column4";
+    background-color: black;   
   }
   
   .footer-column { grid-area: footer-column; }
