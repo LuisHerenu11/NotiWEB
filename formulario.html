@@ -34,7 +34,43 @@
                 NOTI WEB
             </h1>
         </header>
-
+        <br>
+        <form action="mailto:luismarcelo.herenu.@estudiantes.unahur.edu.ar" method="post">
+            <div class="inline">
+                <h2><strong><u>COMPLETAR CON DATOS PERSONALES</u></strong></h2>
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" type="text" name="nombre">
+                <label for="apellido">Apellido:</label></label>
+                <input id="apellido" type="text" name="apellido">
+            </div>
+            <br>
+            <br>
+            <label for="edad">Edad:</label>
+            <input id="edad" type="number" name="edad">
+            <br>
+            <br>
+            <label for="telefono">Telefono de contacto:</label>
+            <input id="telefono" type="number" name="telefono">
+            <br>
+            <br>
+            <label>
+                Tipo de Documento:
+                <input list="documentos" name="miDocumento">
+            </label>
+            <datalist id="documentos">
+                <option value="Documento Nacional de Identidad">
+                <option value="Libreta Civica">
+                <option value="Libreta de Enrolamiento">
+                <option value="Cédula de Indentidad">    
+            </datalist>
+            <label for="doc">Numero Documento:</label>
+            <input id="doc" type="number" name="doc">
+            <br>
+            <br>
+            <br>
+            <label for="envio">CONFIRMAR ENVIO DE FORMULARIO: </label>
+            <input class="recuadroRojo" id="envio" type="submit" value="SUBMIT"><br>
+        </form>
     </div>
     <footer class="footer">
         <div class="footer-menu">
