@@ -268,7 +268,7 @@ h1{
 
 
   @media only screen and (max-width:767px){
-    nav,noticiaGaming1,noticiaGaming2,noticiaGaming3,noticiaGaming4{
+    nav,ajusteVentana,container,categoriaGaming,noticiaGaming1,noticiaGaming2,noticiaGaming3,noticiaGaming4{
         width: 100%;
     }
   }
